@@ -1,0 +1,24 @@
+{
+	"name"           : "@osmium/api-transport",
+	"description"    : "Osmium API transport layer",
+	"version"        : "0.4.0",
+	"license"        : "MIT",
+	"author"         : {
+		"name" : "Vasiliy Isaichkin",
+		"email": "vasiliy@isaichkin.ru"
+	},
+	"repository"     : "https://github.com/osmiumjs/api-transport",
+	"dependencies"   : {
+		"@osmium/coder" : "~0.4.0",
+		"@osmium/events": "~0.4.0",
+		"@osmium/tools" : "~0.4.1",
+		"bignumber.js"  : "~9.0.1",
+		"meriyah"       : "~4.1.5",
+		"moment"        : "~2.29.1"
+	},
+	"devDependencies": {
+		"@types/moment"          : "^2.13.0",
+		"@types/socket.io"       : "^3.0.2",
+		"@types/socket.io-client": "^3.0.0"
+	}
+}
